@@ -23,7 +23,7 @@ export default function AboutJosh() {
         <div className="photo-about-container">
           <img
             className="josh-front"
-            src="/martinezway-mobiledetailing/Josh-front.jpg"
+            src="/martinezway-mobiledetailing/img/Josh-front.jpg"
             alt="Josh"
           />
         </div>
