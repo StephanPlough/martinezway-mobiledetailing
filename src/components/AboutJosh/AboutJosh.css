@@ -1,0 +1,56 @@
+.aboutjosh-container {
+  display: flex;
+  height: 600px;
+  width: 100%;
+  padding: 40px 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LEFT TEXT BLOCK */
+.text-about {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutjosh-header {
+  font-size: 48px;
+  font-family: "Roboto Condensed";
+  color: #67cef6;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #ff5c9d;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.aboutjosh-header-sub {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.aboutjosh-desc {
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 90%;
+  color: #444;
+}
+.aboutjosh-container.reverse {
+  flex-direction: row-reverse;
+}
+
+/* RIGHT PHOTO BLOCK */
+.photo-about-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.josh-front {
+  height: 400px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.25);
+}

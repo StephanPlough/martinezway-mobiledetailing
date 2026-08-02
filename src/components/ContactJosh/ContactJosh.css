@@ -1,0 +1,96 @@
+.whole-contact-container {
+  position: relative;
+}
+
+/* Remove z-index: -1 */
+.contactjosh-container {
+  position: relative; /* anchor for floating cards */
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-color: #67cef6;
+}
+
+/* Your 600px background section */
+.contact-background-section {
+  width: 100%;
+  height: 600px;
+  background-color: #f5f5f5; /* or whatever you want */
+}
+
+/* Floating cards */
+.contact-form-container {
+  position: absolute;
+  bottom: -410px; /* overlap amount */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-form {
+  width: 450px;
+  height: 500px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form img {
+  width: 55px;
+}
+
+.get-in-touch {
+  font-family: "Bevan";
+  font-weight: bold;
+  font-size: 80px;
+  color: white;
+}
+
+.whole-get-in-touch-div {
+  margin-left: 160px;
+  margin-top: 40px;
+}
+
+.contact-josh-invite {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Roboto Condensed";
+  color: white;
+}
+
+.form-title {
+  color: #ff5c9d;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.contact-number,
+.contact-email {
+  margin-top: 50px;
+  font-weight: bold;
+  display: inline-block;
+  padding-bottom: 4px;
+  color: #67cef6;
+  border-bottom: 2px solid #ff5c9d;
+}
+
+.contact-number {
+  font-size: 30px;
+}
+.contact-email {
+  font-size: 20px;
+}
+.calltext-josh-text {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30px;
+  font-size: 25px;
+  line-height: 1.4;
+  font-family: "Roboto Condensed";
+  color: #575757;
+}

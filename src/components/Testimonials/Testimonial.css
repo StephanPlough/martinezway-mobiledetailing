@@ -1,0 +1,64 @@
+.carousel-wrapper {
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  animation: scroll-left 300s linear infinite;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Card styles */
+.testimonial {
+  position: relative;
+  border: 2px solid black;
+  max-width: 350px;
+  min-width: 350px;
+  padding: 30px 40px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+  width: 30px;
+  height: auto;
+  opacity: 0.3;
+}
+
+.top-quote {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.bottom-quote {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.testimonial-name {
+  color: #ff5c9d;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.testimonial-review {
+  color: #67cef6;
+  font-size: 1.1rem;
+  font-family: "Roboto Condensed";
+  line-height: 1.5;
+}

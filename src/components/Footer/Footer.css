@@ -1,0 +1,30 @@
+.footer-container {
+  background-color: #6bd5ff;
+  padding-bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-logo-img {
+  border-radius: 4px;
+  width: 250px;
+}
+
+.footer-serving {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.footer-map {
+  width: 350px;
+  height: 250px;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers text under the image */
+  gap: 10px; /* spacing between items */
+}
