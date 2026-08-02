@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="footer-container">
       <div className="footer-left">
         <img
-          src="/MartinezWay/img/log.png"
+          src="/martinezway-mobiledetailing/img/log.png"
           className="footer-logo-img"
           alt="Martinez Way Logo"
         />

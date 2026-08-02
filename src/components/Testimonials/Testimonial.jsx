@@ -21,7 +21,7 @@ export default function Testimonial() {
 
             <img
               className="quote bottom-quote"
-              src="./public/img/icons8-quote-50.png"
+              src="/martinezway-mobiledetailing/img/icons8-quote-50.png"
               alt=""
             />
           </div>

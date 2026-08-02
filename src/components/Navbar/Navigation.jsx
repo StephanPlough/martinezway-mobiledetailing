@@ -7,7 +7,7 @@ export default function Navigation() {
   return (
     <nav className="nav-container">
       <img
-        src="/img/log.png"
+        src="/martinezway-mobiledetailing/img/log.png"
         className="nav-logo-img"
         alt="Martinez Way Logo"
       ></img>

@@ -11,7 +11,7 @@ export default function SocialsList() {
             target="_blank"
           >
             <img
-              src="/MartinezWay/img/icons/facebook-icon.png"
+              src="/martinezway-mobiledetailing/img/icons/facebook-icon.png"
               alt="Facebook logo"
             ></img>
           </a>
@@ -19,7 +19,7 @@ export default function SocialsList() {
         <li className="list-item">
           <a href="https://www.instagram.com/themartinezway/" target="_blank">
             <img
-              src="/MartinezWay/img/icons/insta-icon.png"
+              src="/martinezway-mobiledetailing/img/icons/insta-icon.png"
               alt="Facebook logo"
             ></img>
           </a>
@@ -30,7 +30,7 @@ export default function SocialsList() {
             target="_blank"
           >
             <img
-              src="/MartinezWay/img/icons/tiktok-icon.png"
+              src="/martinezway-mobiledetailing/img/icons/tiktok-icon.png"
               alt="Facebook logo"
             ></img>
           </a>
@@ -38,7 +38,7 @@ export default function SocialsList() {
         <li className="list-item">
           <a href="https://www.youtube.com/@TheMartinezWay02" target="_blank">
             <img
-              src="/MartinezWay/img/icons/youtube-icon.png"
+              src="/martinezway-mobiledetailing/img/icons/youtube-icon.png"
               alt="Facebook logo"
             ></img>
           </a>

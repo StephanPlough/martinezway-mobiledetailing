@@ -11,13 +11,13 @@ export default function ContactInfo() {
       <div className="phone-mail-footer-container">
         <img
           className="icon-img"
-          src="/MartinezWay/img/icons/mail-icon.png"
+          src="/martinezway-mobiledetailing/img/icons/mail-icon.png"
           alt="Envelope"
         ></img>
         <p className="footer-email">martinezwaymobiledetailing@gmail.com</p>
         <img
           className="icon-img"
-          src="/MartinezWay/img/icons/phone-icon.png"
+          src="/martinezway-mobiledetailing/img/icons/phone-icon.png"
           alt="Phone"
         ></img>
         <p className="footer-number">951-746-8945</p>

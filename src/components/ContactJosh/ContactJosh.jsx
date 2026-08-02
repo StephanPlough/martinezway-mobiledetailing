@@ -19,7 +19,7 @@ export default function ContactJosh() {
               <h3 className="form-title">Call or Text Me</h3>
               <img
                 className="icon-img"
-                src="/MartinezWay/img/icons/phone-icon.png"
+                src="/martinezway-mobiledetailing/img/icons/phone-icon.png"
                 alt="Phone"
               ></img>
               <p className="calltext-josh-text">
@@ -32,7 +32,7 @@ export default function ContactJosh() {
               <h3 className="form-title">Email Me</h3>
               <img
                 className="icon-img"
-                src="/MartinezWay/img/icons/mail-icon.png"
+                src="/martinezway-mobiledetailing/img/icons/mail-icon.png"
                 alt="Mail"
               ></img>
               <p className="calltext-josh-text">

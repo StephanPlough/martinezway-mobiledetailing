@@ -5,7 +5,10 @@ export default function OurServices() {
   return (
     <>
       <div className="service-photo-container">
-        <img className="service-img" src="public/img/ai-service-hero.png" />
+        <img
+          className="service-img"
+          src="/martinezway-mobiledetailing/img/ai-service-hero.png"
+        />
 
         <div className="service-text-wrapper">
           <h1 className="service-title">Services</h1>

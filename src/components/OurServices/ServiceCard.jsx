@@ -7,7 +7,7 @@ export default function ServiceCard() {
       <div className="service-card">
         <img
           className="service-card-img"
-          src="img/ai-paint-correction.png"
+          src="/martinezway-mobiledetailing/img/ai-paint-correction.png"
           alt=""
         />
         <h4 className="service-name">Paint Correction</h4>
@@ -22,7 +22,7 @@ export default function ServiceCard() {
       <div className="service-card">
         <img
           className="service-card-img"
-          src="img/ai-ceramic-coating.png"
+          src="/martinezway-mobiledetailing/img/ai-ceramic-coating.png"
           alt=""
         />
         <h4 className="service-name">Ceramic Coatings</h4>
@@ -35,7 +35,11 @@ export default function ServiceCard() {
       </div>
 
       <div className="service-card">
-        <img className="service-card-img" src="img/ai-waxing.png" alt="" />
+        <img
+          className="service-card-img"
+          src="/martinezway-mobiledetailing/img/ai-waxing.png"
+          alt=""
+        />
         <h4 className="service-name">Waxing</h4>
         <p className="service-card-text">
           Enhances shine and adds a protective layer that shields your paint
@@ -45,7 +49,11 @@ export default function ServiceCard() {
       </div>
 
       <div className="service-card">
-        <img className="service-card-img" src="img/ai-clay-red.png" alt="" />
+        <img
+          className="service-card-img"
+          src="/martinezway-mobiledetailing/img/ai-clay-red.png"
+          alt=""
+        />
         <h4 className="service-name">Clay Baring</h4>
         <p className="service-card-text">
           Removes embedded contaminants like tar, overspray, brake dust, and
@@ -56,7 +64,11 @@ export default function ServiceCard() {
       </div>
 
       <div className="service-card">
-        <img className="service-card-img" src="img/ai-engine.png" alt="" />
+        <img
+          className="service-card-img"
+          src="/martinezway-mobiledetailing/img/ai-engine.png"
+          alt=""
+        />
         <h4 className="service-name">Engine Bay Cleaning</h4>
         <p className="service-card-text">
           Safely removes dirt, grease, and debris from the engine compartment
@@ -66,7 +78,11 @@ export default function ServiceCard() {
       </div>
 
       <div className="service-card">
-        <img className="service-card-img" src="img/ai-headlight.webp" alt="" />
+        <img
+          className="service-card-img"
+          src="/martinezway-mobiledetailing/img/ai-headlight.webp"
+          alt=""
+        />
         <h4 className="service-name">Headlight Restoration</h4>
         <p className="service-card-text">
           Removes oxidation, yellowing, and haze from headlight lenses to
@@ -76,7 +92,11 @@ export default function ServiceCard() {
       </div>
 
       <div className="service-card">
-        <img className="service-card-img" src="img/ai-shampooing.jpg" alt="" />
+        <img
+          className="service-card-img"
+          src="/martinezway-mobiledetailing/img/ai-shampooing.jpg"
+          alt=""
+        />
         <h4 className="service-name">Minor Shampooing</h4>
         <p className="service-card-text">
           Light fabric shampooing to remove surface stains, dirt, and odors from
@@ -88,7 +108,7 @@ export default function ServiceCard() {
       <div className="service-card">
         <img
           className="service-card-img"
-          src="img/ai-stain-removal.png"
+          src="/martinezway-mobiledetailing/img/ai-stain-removal.png"
           alt=""
         />
         <h4 className="service-name">Minor Stain Removal</h4>

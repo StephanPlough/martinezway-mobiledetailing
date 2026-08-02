@@ -5,7 +5,10 @@ export default function Hero() {
   return (
     <>
       <div className="hero-container">
-        <img src="/img/ai-hero.png" className="hero-pic1" />
+        <img
+          src="/martinezway-mobiledetailing/img/ai-hero.png"
+          className="hero-pic1"
+        />
 
         <div className="intro-hero">
           <div className="hero-title-bar">
