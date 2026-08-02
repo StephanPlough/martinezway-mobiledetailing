@@ -5,7 +5,6 @@ export default function AboutJosh() {
   return (
     <>
       <div className="aboutjosh-container">
-        {/* LEFT TEXT BLOCK */}
         <div className="text-about">
           <h2 className="aboutjosh-header">Hi, I'm Josh Martinez</h2>
           <h3 className="aboutjosh-header-sub">What I Do</h3>
@@ -21,13 +20,15 @@ export default function AboutJosh() {
           </p>
         </div>
 
-        {/* RIGHT PHOTO BLOCK */}
         <div className="photo-about-container">
-          <img className="josh-front" src="./img/Josh-front.jpg" alt="Josh" />
+          <img
+            className="josh-front"
+            src="/MartinezWay/Josh-front.jpg"
+            alt="Josh"
+          />
         </div>
       </div>
       <div className="aboutjosh-container reverse">
-        {/* LEFT TEXT BLOCK */}
         <div className="text-about">
           <h2 className="aboutjosh-header">From Hobby to Business</h2>
           <h3 className="aboutjosh-header-sub">How it Started</h3>
@@ -43,7 +44,11 @@ export default function AboutJosh() {
 
         {/* RIGHT PHOTO BLOCK */}
         <div className="photo-about-container">
-          <img className="josh-front" src="./img/Josh-back.jpg" alt="Josh" />
+          <img
+            className="josh-front"
+            src="/MartinezWay/img/Josh-back.jpg"
+            alt="Josh"
+          />
         </div>
       </div>
     </>
