@@ -23,7 +23,7 @@ export default function AboutJosh() {
         <div className="photo-about-container">
           <img
             className="josh-front"
-            src="/MartinezWay/Josh-front.jpg"
+            src="/martinezway-mobiledetailing/Josh-front.jpg"
             alt="Josh"
           />
         </div>
@@ -46,7 +46,7 @@ export default function AboutJosh() {
         <div className="photo-about-container">
           <img
             className="josh-front"
-            src="/MartinezWay/img/Josh-back.jpg"
+            src="/martinezway-mobiledetailing/img/Josh-back.jpg"
             alt="Josh"
           />
         </div>
