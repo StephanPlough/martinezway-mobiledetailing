@@ -1,19 +1,33 @@
 .contact-card {
   display: flex;
   flex-direction: column;
-  margin-right: 80px;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  padding: 10px;
 }
 
-h3 {
+/* Title */
+.contact-card h3 {
   color: white;
   font-family: "Roboto Condensed";
   font-size: 40px;
   margin-bottom: 5px;
 }
 
+/* Icons + text row */
+.phone-mail-footer-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap; /* allows wrapping on mobile */
+  justify-content: center;
+  max-width: 300px;
+}
+
 .icon-img {
   width: 30px;
-  margin: 10px;
+  height: 30px;
 }
 
 .footer-number,
@@ -21,4 +35,49 @@ h3 {
   color: white;
   font-family: "Roboto Condensed";
   font-weight: 600;
+  font-size: 20px;
+}
+
+/* --- TABLET BREAKPOINT --- */
+@media (max-width: 900px) {
+  .contact-card h3 {
+    font-size: 32px;
+  }
+
+  .footer-number,
+  .footer-email {
+    font-size: 18px;
+  }
+
+  .icon-img {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+/* --- MOBILE BREAKPOINT --- */
+@media (max-width: 600px) {
+  .contact-card {
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact-card h3 {
+    font-size: 26px;
+  }
+
+  .footer-number,
+  .footer-email {
+    font-size: 16px;
+  }
+
+  .icon-img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .phone-mail-footer-container {
+    gap: 8px;
+    max-width: 260px;
+  }
 }

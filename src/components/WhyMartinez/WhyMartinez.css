@@ -1,73 +1,143 @@
-.why-container{
-    max-width:1300px;
-    margin:120px auto;
-    padding:0 40px;
+/* --- CONTAINER --- */
+.why-container {
+  max-width: 1300px;
+  margin: 120px auto;
+  padding: 0 40px;
 }
 
-.why-header{
-    text-align:center;
-    margin-bottom:70px;
+/* --- HEADER --- */
+.why-header {
+  text-align: center;
+  margin-bottom: 70px;
 }
 
-.why-header h1{
-    font-family:"Roboto Condensed";
-    font-size:56px;
-    color:#67cef6;
-    display:inline-block;
-    border-bottom:4px solid #ff5c9d;
-    padding-bottom:12px;
-    margin-bottom:35px;
+.why-header h1 {
+  font-family: "Roboto Condensed";
+  font-size: 56px;
+  color: #67cef6;
+  display: inline-block;
+  border-bottom: 4px solid #ff5c9d;
+  padding-bottom: 12px;
+  margin-bottom: 35px;
 }
 
-.why-header p{
-    max-width:900px;
-    margin:auto;
-    font-size:20px;
-    line-height:1.9;
-    color:#555;
+.why-header p {
+  max-width: 900px;
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.9;
+  color: #555;
 }
 
-.why-header span{
-    color:#67cef6;
-    font-weight:700;
+.why-header span {
+  color: #67cef6;
+  font-weight: 700;
 }
 
-.feature-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:35px;
+/* --- GRID --- */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
 }
 
-.feature-card{
-    background:white;
-    padding:40px 30px;
-    border-radius:15px;
-    text-align:center;
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
-    transition:.3s;
-    border-top:6px solid #67cef6;
+/* --- CARDS --- */
+.feature-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+  border-top: 6px solid #67cef6;
 }
 
-.feature-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 20px 45px rgba(0,0,0,.15);
-    border-top:6px solid #ff5c9d;
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
+  border-top: 6px solid #ff5c9d;
 }
 
-.feature-icon{
-    font-size:50px;
-    margin-bottom:20px;
+.feature-icon {
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 
-.feature-card h3{
-    font-size:26px;
-    color:#67cef6;
-    margin-bottom:15px;
-    font-family:"Roboto Condensed";
+.feature-card h3 {
+  font-size: 26px;
+  color: #67cef6;
+  margin-bottom: 15px;
+  font-family: "Roboto Condensed";
 }
 
-.feature-card p{
-    font-size:17px;
-    color:#666;
-    line-height:1.7;
+.feature-card p {
+  font-size: 17px;
+  color: #666;
+  line-height: 1.7;
+}
+
+/* --- TABLET BREAKPOINT (iPads) --- */
+@media (max-width: 900px) {
+  .why-header h1 {
+    font-size: 46px;
+  }
+
+  .why-header p {
+    font-size: 18px;
+  }
+
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .feature-card {
+    padding: 32px 24px;
+  }
+
+  .feature-card h3 {
+    font-size: 22px;
+  }
+
+  .feature-card p {
+    font-size: 16px;
+  }
+}
+
+/* --- MOBILE BREAKPOINT (phones) --- */
+@media (max-width: 600px) {
+  .why-container {
+    padding: 0 20px;
+    margin: 80px auto;
+  }
+
+  .why-header h1 {
+    font-size: 34px;
+  }
+
+  .why-header p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .feature-card {
+    padding: 28px 20px;
+  }
+
+  .feature-icon {
+    font-size: 42px;
+  }
+
+  .feature-card h3 {
+    font-size: 20px;
+  }
+
+  .feature-card p {
+    font-size: 15px;
+  }
 }

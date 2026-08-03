@@ -1,9 +1,12 @@
+/* --- CONTAINER --- */
 .package-container {
   background-color: #000000c5;
   width: 100%;
   padding: 60px 0;
+  text-align: center;
 }
 
+/* --- TITLE --- */
 .package-hero-title {
   color: #67cef6;
   font-family: "Roboto Condensed";
@@ -12,18 +15,19 @@
   margin-bottom: 40px;
   border-bottom: 3px solid #ff5c9d;
   display: inline-block;
+  padding-bottom: 6px;
 }
 
+/* --- PACKAGE GRID --- */
 .packages {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* desktop */
   gap: 30px;
   padding: 0 60px;
 }
 
-/* BASE PACKAGE CARD */
+/* --- CARD --- */
 .single-package {
-  width: 22%;
   background-color: #fff;
   border: 3px solid #67cef6;
   border-radius: 14px;
@@ -32,6 +36,39 @@
   transition: 0.3s ease;
 }
 
+.single-package:hover {
+  transform: translateY(-6px);
+}
+
+/* --- POPULAR PACKAGE --- */
+.single-package.popular {
+  background-color: #67cef6;
+  border: 4px solid #ff5c9d;
+  color: #fff;
+  box-shadow: 0px 0px 20px rgba(255, 92, 157, 0.4);
+  transform: scale(1.05);
+}
+
+.single-package.popular .package-title {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.single-package.popular .package-price {
+  color: #fff;
+}
+
+.popular-btn {
+  background-color: #fff;
+  color: #ff5c9d;
+}
+
+.popular-btn:hover {
+  background-color: #ff5c9d;
+  color: #fff;
+}
+
+/* --- TEXT --- */
 .package-title {
   font-size: 28px;
   text-align: center;
@@ -59,7 +96,7 @@
   color: #333;
 }
 
-/* BUTTON */
+/* --- BUTTON --- */
 .package-btn {
   width: 100%;
   padding: 12px;
@@ -76,30 +113,69 @@
   background-color: #67cef6;
 }
 
-/* POPULAR PACKAGE */
-.single-package.popular {
-  background-color: #67cef6;
-  border: 4px solid #ff5c9d;
-  color: #fff;
-  box-shadow: 0px 0px 20px rgba(255, 92, 157, 0.4);
-  transform: scale(1.05);
+/* --- TABLET BREAKPOINT (iPads) --- */
+@media (max-width: 900px) {
+  .package-hero-title {
+    font-size: 46px;
+  }
+
+  .packages {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row */
+    padding: 0 40px;
+    gap: 25px;
+  }
+
+  .single-package {
+    padding: 20px;
+  }
+
+  .package-title {
+    font-size: 24px;
+  }
+
+  .package-price {
+    font-size: 20px;
+  }
+
+  .package-list {
+    font-size: 16px;
+  }
+
+  .package-btn {
+    font-size: 18px;
+  }
 }
 
-.single-package.popular .package-title {
-  color: #fff;
-  border-bottom-color: #fff;
-}
+/* --- MOBILE BREAKPOINT (phones) --- */
+@media (max-width: 600px) {
+  .package-hero-title {
+    font-size: 34px;
+  }
 
-.single-package.popular .package-price {
-  color: #fff;
-}
+  .packages {
+    grid-template-columns: 1fr; /* 1 per row */
+    padding: 0 20px;
+    gap: 20px;
+  }
 
-.popular-btn {
-  background-color: #fff;
-  color: #ff5c9d;
-}
+  .single-package {
+    padding: 18px;
+  }
 
-.popular-btn:hover {
-  background-color: #ff5c9d;
-  color: #fff;
+  .package-title {
+    font-size: 22px;
+  }
+
+  .package-price {
+    font-size: 18px;
+  }
+
+  .package-list {
+    font-size: 15px;
+  }
+
+  .package-btn {
+    font-size: 16px;
+    padding: 10px;
+  }
 }

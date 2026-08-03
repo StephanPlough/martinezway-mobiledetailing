@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Hero from "../Hero/Hero";
-import BookingButton from "../Hero/BookingButton";
 
 export default function Navigation() {
   return (
@@ -10,7 +8,8 @@ export default function Navigation() {
         src="/martinezway-mobiledetailing/img/log.png"
         className="nav-logo-img"
         alt="Martinez Way Logo"
-      ></img>
+      />
+
       <ul className="nav-links">
         <li>
           <Link to="/">Home</Link>

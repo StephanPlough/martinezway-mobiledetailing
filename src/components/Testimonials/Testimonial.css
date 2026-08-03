@@ -1,9 +1,11 @@
+/* --- WRAPPER --- */
 .carousel-wrapper {
   overflow: hidden;
   width: 100%;
   padding: 20px 0;
 }
 
+/* --- TRACK --- */
 .carousel-track {
   display: flex;
   gap: 20px;
@@ -20,7 +22,7 @@
   }
 }
 
-/* Card styles */
+/* --- CARD --- */
 .testimonial {
   position: relative;
   border: 2px solid black;
@@ -32,6 +34,7 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* --- QUOTE ICONS --- */
 .quote {
   width: 30px;
   height: auto;
@@ -50,6 +53,7 @@
   right: 10px;
 }
 
+/* --- TEXT --- */
 .testimonial-name {
   color: #ff5c9d;
   font-size: 1.4rem;
@@ -61,4 +65,47 @@
   font-size: 1.1rem;
   font-family: "Roboto Condensed";
   line-height: 1.5;
+}
+
+/* --- TABLET BREAKPOINT (iPads) --- */
+@media (max-width: 900px) {
+  .testimonial {
+    max-width: 300px;
+    min-width: 300px;
+    padding: 25px 30px;
+  }
+
+  .testimonial-name {
+    font-size: 1.3rem;
+  }
+
+  .testimonial-review {
+    font-size: 1rem;
+  }
+
+  .quote {
+    width: 26px;
+  }
+}
+
+/* --- MOBILE BREAKPOINT (phones) --- */
+@media (max-width: 600px) {
+  .testimonial {
+    max-width: 260px;
+    min-width: 260px;
+    padding: 20px 24px;
+  }
+
+  .testimonial-name {
+    font-size: 1.2rem;
+  }
+
+  .testimonial-review {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  .quote {
+    width: 22px;
+  }
 }
