@@ -2,7 +2,7 @@
   position: relative;
 }
 
-/* BLUE TOP SECTION — desktop EXACT */
+/* BLUE TOP SECTION — EXACT DESKTOP */
 .contactjosh-container {
   position: relative;
   display: flex;
@@ -10,19 +10,22 @@
   height: 400px;
   background-color: #67cef6;
 
-  /* These two lines are what make your screenshot layout EXACT */
+  /* These two lines are EXACTLY what your screenshot used */
   padding-left: 160px;
   padding-top: 40px;
+
+  /* Prevent ANY global flex rules from touching this */
+  flex: none !important;
 }
 
-/* GRAY BACKGROUND SECTION */
+/* GRAY BACKGROUND SECTION — EXACT */
 .contact-background-section {
   width: 100%;
   height: 600px;
   background-color: #f5f5f5;
 }
 
-/* FLOATING CARDS — desktop EXACT */
+/* FLOATING CARDS — EXACT DESKTOP */
 .contact-form-container {
   position: absolute;
   bottom: -410px;
@@ -34,9 +37,12 @@
   display: flex;
   justify-content: space-evenly;
   gap: 40px;
+
+  /* Prevent global flex overrides */
+  flex: none !important;
 }
 
-/* INDIVIDUAL CARDS */
+/* INDIVIDUAL CARDS — EXACT DESKTOP */
 .contact-form {
   width: 450px;
   height: 500px;
@@ -48,13 +54,16 @@
   flex-direction: column;
   align-items: center;
   padding: 30px;
+
+  /* Prevent global flex overrides */
+  flex: none !important;
 }
 
 .contact-form img {
   width: 55px;
 }
 
-/* LEFT TEXT BLOCK */
+/* LEFT TEXT BLOCK — EXACT DESKTOP */
 .whole-get-in-touch-div {
   max-width: 500px;
 }
@@ -108,12 +117,8 @@
   font-size: 20px;
 }
 
-/* --- TABLET BREAKPOINT --- */
+/* --- TABLET BREAKPOINT (NO LAYOUT CHANGES) --- */
 @media (max-width: 900px) {
-  .contactjosh-container {
-    padding-left: 40px;
-  }
-
   .get-in-touch {
     font-size: 60px;
   }
@@ -128,8 +133,9 @@
   }
 }
 
-/* --- MOBILE BREAKPOINT (STACK CARDS) --- */
+/* --- MOBILE BREAKPOINT (STACK CARDS ONLY) --- */
 @media (max-width: 600px) {
+  /* Blue section becomes centered */
   .contactjosh-container {
     height: auto;
     padding: 20px;
