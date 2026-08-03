@@ -2,13 +2,16 @@
 .nav-container {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* spreads logo + links */
+  justify-content: space-between; /* logo left, links right */
   padding: 0.75rem 1.25rem;
   background-color: #fff;
   position: sticky;
   top: 0;
   z-index: 999;
   border-bottom: 1px solid #eee;
+
+  /* PROTECT NAV FROM OTHER FLEX RULES */
+  flex: none !important;
 }
 
 /* Logo */
@@ -24,6 +27,12 @@
   list-style: none;
   padding: 0;
   margin: 0;
+
+  /* PREVENT LEFT/RIGHT SHIFTING */
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
 }
 
 .nav-links a {
