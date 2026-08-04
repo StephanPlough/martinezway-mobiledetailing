@@ -1,7 +1,7 @@
 /* --- GALLERY CONTAINER --- */
 .gallery-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);   /* desktop */
+  grid-template-columns: repeat(3, 1fr); /* desktop */
   gap: 30px;
   max-width: 1300px;
   margin: 60px auto 45px auto;
@@ -16,6 +16,11 @@
   border-radius: 10px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease;
+  /* NEW — BORDER */
+  border: 3px solid #333; /* your blue */
+
+  /* OPTIONAL — adds a “framed” look */
+  padding: 1px;
 }
 
 .gallery-img:hover {
