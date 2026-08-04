@@ -47,6 +47,24 @@
   color: #fff;
   box-shadow: 0px 0px 20px rgba(255, 92, 157, 0.4);
   transform: scale(1.05);
+  position: relative;
+  overflow: hidden;
+  font-weight: 700;
+}
+.single-package.popular:hover {
+  transform: translateY(-6px);
+}
+
+.single-package.popular::after {
+  content: "Best value";
+  position: absolute;
+  text-transform: capitalize;
+  top: 3%;
+  right: -7.8%;
+  background-color: #ffd43b;
+  color: #333 !important;
+  padding: 3px 26px;
+  transform: rotate(45deg);
 }
 
 .single-package.popular .package-title {
