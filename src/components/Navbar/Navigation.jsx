@@ -14,18 +14,17 @@ export default function Navigation() {
 
   return (
     <nav className="nav-container">
-      <img
-        src="/martinezway-mobiledetailing/img/log.png"
-        className="nav-logo-img"
-        alt="Martinez Way Logo"
-      />
-
       {/* HAMBURGER */}
       <div className="hamburger" onClick={() => setOpen(!open)}>
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>
       </div>
+      <img
+        src="/martinezway-mobiledetailing/img/log.png"
+        className="nav-logo-img"
+        alt="Martinez Way Logo"
+      />
 
       {/* MOBILE MENU */}
       <ul className={`mobile-nav ${open ? "show" : ""}`}>

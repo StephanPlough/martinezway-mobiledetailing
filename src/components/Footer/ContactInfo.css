@@ -20,7 +20,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  flex-wrap: wrap; /* allows wrapping on mobile */
+  flex-wrap: wrap;
   justify-content: center;
   max-width: 300px;
 }
@@ -30,12 +30,18 @@
   height: 30px;
 }
 
-.footer-number,
-.footer-email {
+.footer-email,
+.footer-number {
   color: white;
   font-family: "Roboto Condensed";
   font-weight: 600;
   font-size: 20px;
+}
+
+/* Make phone number NON-clickable on desktop */
+.footer-number {
+  pointer-events: none;
+  text-decoration: none;
 }
 
 /* --- TABLET BREAKPOINT --- */
@@ -44,8 +50,8 @@
     font-size: 32px;
   }
 
-  .footer-number,
-  .footer-email {
+  .footer-email,
+  .footer-number {
     font-size: 18px;
   }
 
@@ -66,8 +72,8 @@
     font-size: 26px;
   }
 
-  .footer-number,
-  .footer-email {
+  .footer-email,
+  .footer-number {
     font-size: 16px;
   }
 
@@ -79,5 +85,11 @@
   .phone-mail-footer-container {
     gap: 8px;
     max-width: 260px;
+  }
+
+  /* Enable clicking ONLY on mobile */
+  .footer-number {
+    pointer-events: auto;
+    text-decoration: underline; /* optional */
   }
 }
