@@ -21,13 +21,10 @@ export default function AboutJosh() {
         </div>
 
         <div className="photo-about-container">
-          <img
-            className="josh-front"
-            src="/martinezway-mobiledetailing/img/Josh-front.jpg"
-            alt="Josh"
-          />
+          <img className="josh-front" src="/img/Josh-front.jpg" alt="Josh" />
         </div>
       </div>
+
       <div className="aboutjosh-container reverse">
         <div className="text-about">
           <h2 className="aboutjosh-header">From Hobby to Business</h2>
@@ -42,13 +39,8 @@ export default function AboutJosh() {
           </p>
         </div>
 
-        {/* RIGHT PHOTO BLOCK */}
         <div className="photo-about-container">
-          <img
-            className="josh-front"
-            src="/martinezway-mobiledetailing/img/Josh-back.jpg"
-            alt="Josh"
-          />
+          <img className="josh-front" src="/img/Josh-back.jpg" alt="Josh" />
         </div>
       </div>
     </>

@@ -20,8 +20,9 @@ export default function Navigation() {
         <span className="bar"></span>
         <span className="bar"></span>
       </div>
+
       <img
-        src="/martinezway-mobiledetailing/img/log.png"
+        src="/img/log.png"
         className="nav-logo-img"
         alt="Martinez Way Logo"
       />
@@ -34,7 +35,7 @@ export default function Navigation() {
         <li onClick={() => scrollToSection("packages")}>Packages</li>
       </ul>
 
-      {/* DESKTOP NAV (unchanged) */}
+      {/* DESKTOP NAV */}
       <ul className="nav-links">
         <li>
           <Link to="/">Home</Link>

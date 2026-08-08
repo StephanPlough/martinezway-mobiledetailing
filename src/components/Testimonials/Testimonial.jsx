@@ -12,8 +12,8 @@ export default function Testimonial() {
           <div key={name + i} className="testimonial">
             <img
               className="quote top-quote"
-              src="/martinezway-mobiledetailing/img/icons8-quote-50.png"
-              alt=""
+              src="/img/icons/icons8-quote-50.png"
+              alt="Quote icon"
             />
 
             <h3 className="testimonial-name">{name}</h3>
@@ -21,8 +21,8 @@ export default function Testimonial() {
 
             <img
               className="quote bottom-quote"
-              src="/martinezway-mobiledetailing/img/icons8-quote-50.png"
-              alt=""
+              src="/img/icons/icons8-quote-50.png"
+              alt="Quote icon"
             />
           </div>
         ))}

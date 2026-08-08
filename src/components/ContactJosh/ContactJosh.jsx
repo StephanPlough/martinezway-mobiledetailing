@@ -13,28 +13,34 @@ export default function ContactJosh() {
               Here is how you can contact me.
             </p>
           </div>
-          {/*CONTACT CARDS  */}
+
+          {/* CONTACT CARDS */}
           <div className="contact-form-container">
             <div className="contact-form phone">
               <h3 className="form-title">Call or Text Me</h3>
+
               <img
                 className="icon-img"
-                src="/martinezway-mobiledetailing/img/icons/phone-icon.png"
+                src="/img/icons/phone-icon.png"
                 alt="Phone"
-              ></img>
+              />
+
               <p className="calltext-josh-text">
                 Interested in calling me or shooting me a text? Let's do it! I
                 will get back to you as soon as I can.
               </p>
               <p className="contact-number">(951) 746-8945</p>
             </div>
+
             <div className="contact-form mail">
               <h3 className="form-title">Email Me</h3>
+
               <img
                 className="icon-img"
-                src="/martinezway-mobiledetailing/img/icons/mail-icon.png"
+                src="/img/icons/mail-icon.png"
                 alt="Mail"
-              ></img>
+              />
+
               <p className="calltext-josh-text">
                 Maybe you would prefer sending me an email. You can also do that
                 and I will get to you as soon as I can!
@@ -45,6 +51,7 @@ export default function ContactJosh() {
             </div>
           </div>
         </div>
+
         <div className="contact-background-section"></div>
       </div>
     </>

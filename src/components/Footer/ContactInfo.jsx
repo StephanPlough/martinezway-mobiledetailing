@@ -12,18 +12,14 @@ export default function ContactInfo() {
       <div className="phone-mail-footer-container">
         <img
           className="icon-img"
-          src="/martinezway-mobiledetailing/img/icons/mail-icon.png"
+          src="/img/icons/mail-icon.png"
           alt="Envelope"
         />
+
         <p className="footer-email">martinezwaymobiledetailing@gmail.com</p>
 
-        <img
-          className="icon-img"
-          src="/martinezway-mobiledetailing/img/icons/phone-icon.png"
-          alt="Phone"
-        />
+        <img className="icon-img" src="/img/icons/phone-icon.png" alt="Phone" />
 
-        {/* Always visible, only clickable on mobile */}
         <a className="footer-number" href="tel:9517468945">
           951-746-8945
         </a>

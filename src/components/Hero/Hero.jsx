@@ -4,11 +4,7 @@ import BookingButton from "./BookingButton";
 export default function Hero() {
   return (
     <div className="hero-container">
-      <img
-        src="/martinezway-mobiledetailing/img/ai-hero.png"
-        className="hero-pic1"
-        alt="Hero"
-      />
+      <img src="/img/ai-hero.png" className="hero-pic1" alt="Hero" />
 
       <div className="intro-hero">
         <div className="hero-title-bar">

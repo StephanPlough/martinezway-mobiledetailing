@@ -7,7 +7,8 @@ export default function OurServices() {
       <div className="service-photo-container">
         <img
           className="service-img"
-          src="/martinezway-mobiledetailing/img/ai-service-hero.png"
+          src="/img/ai-service-hero.png"
+          alt="Service Hero"
         />
 
         <div className="service-text-wrapper">
@@ -27,21 +28,25 @@ export default function OurServices() {
         <div className="car-outline-container">
           <div className="contact-disclaimer">
             <h3 className="disclaimer-title">Booking & Travel Disclaimer</h3>
+
             <p className="disclaimer-text">
               Appointments require a{" "}
               <span className="disc-highlight">$50 non‑refundable deposit</span>{" "}
               for full detailing services, applied toward your final total.
             </p>
+
             <p className="disclaimer-text">
               A{" "}
               <span className="disc-highlight">$30 non‑refundable deposit</span>{" "}
               is required for basic or maintenance services and also goes toward
               your service total.
             </p>
+
             <p className="disclaimer-text">
               A <span className="disc-highlight">$20 travel fee</span> applies
               to locations outside a 15‑mile radius.
             </p>
+
             <p className="disclaimer-text">
               By booking with The Martinez Way Mobile Detailing, you agree to
               these terms.

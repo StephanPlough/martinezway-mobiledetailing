@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="footer-container">
       <div className="footer-left">
         <img
-          src="/martinezway-mobiledetailing/img/log.png"
+          src="/img/log.png"
           className="footer-logo-img"
           alt="Martinez Way Logo"
         />
@@ -17,7 +17,9 @@ export default function Footer() {
           Serving Temecula, Murrieta, and surrounding areas.
         </p>
       </div>
+
       <ContactInfo />
+
       <div className="footer-map">
         <iframe
           title="Business Location"
