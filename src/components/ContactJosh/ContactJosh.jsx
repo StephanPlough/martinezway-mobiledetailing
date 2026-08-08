@@ -47,9 +47,12 @@ export default function ContactJosh() {
                 Maybe you would prefer sending me an email. You can also do that
                 and I will get to you as soon as I can!
               </p>
-              <p className="contact-email">
+              <a
+                className="contact-email"
+                href="mailto:martinezwaymobiledetailing@gmail.com"
+              >
                 martinezwaymobiledetailing@gmail.com
-              </p>
+              </a>
             </div>
           </div>
         </div>
