@@ -16,8 +16,13 @@ export default function ContactInfo() {
           alt="Envelope"
         />
 
-        <p className="footer-email">martinezwaymobiledetailing@gmail.com</p>
-
+        <p></p>
+        <a
+          className="footer-email"
+          href="mailto:martinezwaymobiledetailing@gmail.com"
+        >
+          martinezwaymobiledetailing@gmail.com
+        </a>
         <img className="icon-img" src="/img/icons/phone-icon.png" alt="Phone" />
 
         <a className="footer-number" href="tel:9517468945">

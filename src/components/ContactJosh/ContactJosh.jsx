@@ -29,7 +29,9 @@ export default function ContactJosh() {
                 Interested in calling me or shooting me a text? Let's do it! I
                 will get back to you as soon as I can.
               </p>
-              <p className="contact-number">(951) 746-8945</p>
+              <a className="contact-number" href="tel:9517468945">
+                951-746-8945
+              </a>
             </div>
 
             <div className="contact-form mail">
